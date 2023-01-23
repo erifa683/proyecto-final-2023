@@ -1,0 +1,115 @@
+
+.pantallaCompleta{
+    height: 100vh;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Roboto Condensed';
+    border-radius: 15vh; 
+  
+}
+.datos{
+    font-style:italic;
+    text-align: left;
+    font-size:4vh ;
+    /*margin-left: 5%;*/
+
+}
+.SinBorde{
+    background-color:#2bb1e2;
+    border: 0;
+}
+
+.datos7{
+    font-style:italic;
+    text-align: left;
+    margin-left: 5%;
+    font-size: 4vh;
+}
+input[type='text']{
+    width: 20vw;
+    font-size: 4vh;
+}
+
+#mensaje{
+    height: 40vh;
+}
+label{
+    vertical-align: top;
+}
+
+input[type='button'] {
+    font-size: 4vh;
+
+}
+
+
+input[type='submit'] {
+    font-size: 4vh;
+    margin-right: 20vw;
+
+}
+.mediaPantalla{
+    width: 50%;
+
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   /* padding-left: 20%;
+    padding-right: 20%;*/
+
+
+}
+.titulos{
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+    margin: left 40px; ;
+    margin: right 40px; 
+    
+}
+
+.espaciado{
+    padding:5%;
+
+}
+h1{
+    border-style: solid;
+    border-width: 20px;
+    border-color:#2bb1e2;
+    border-radius:15vh ;
+    padding: 2vh;
+    font-size: 8vh;
+    height: max-content;
+}
+
+#botonfoto {
+    /*font-size: 4vh;*/
+    border-radius: 10px;
+    /*padding:5vh ;*/
+    border-color: aqua;
+    /*margin-right: 100vw;*/
+    background-image: url(imgs/camara-foto.jfif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15vh;
+    height: 15vh;
+
+}
+
+#foto{
+    border-radius: 100%;
+    border:#2bb1e2 solid 8px;
+}
+.parrafos{
+    font-size: 4vh; 
+}
+h3{
+    font-size: 5vh;
+
+}
