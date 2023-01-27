@@ -10,53 +10,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
+
+    <script src="./functions.js" type="text/javascript" ></script>
 </head>
 
 <body>
 
 
-    <div>
+    <div class="contenedor vertical espaciado colores">
 
-        <div style="background-color:rgb(127, 255, 244)" class="pantallaCompleta contenedor titulos espaciado">
+        <div  class="pantallaCompleta contenedor titulos espaciado">
 
-            <!--<input type="button" class="boton">-->
-            <h1 style="width: 100%;">Pagina Principal
-
-            </h1>
-            <div class="mediaPantalla">
-                <img src="https://th.bing.com/th/id/R.885a43ebad23388125a740c4767f191e?rik=pNkHIXo5Lo9NEw&riu=http%3a%2f%2fdeltamascota.files.wordpress.com%2f2013%2f02%2fanimal_118_20120518_1511321022.jpg&ehk=w%2bVH2siUgAOUICS96mdN3P9HvC5eQFF0WCtNVgzDvPU%3d&risl=&pid=ImgRaw&r=0"
-                    height="100%" width="100%" id="foto" />
+            <h1>Pagina Principal</h1>
+            <div class="mediaPantalla espaciado">
+                <img src="./imgs/leones/leon1.jfif" onload="javascript:cambiarFoto()"
+                    width="100%" id="foto" />
 
             </div>
 
-            <div class="datos mediaPantalla">
+            <div class="mediaPantalla espaciado datos">
                 <br>
                 <br>
-                <label for="Nombre">Nombre:</label>
-                <input type="text" class="SinBorde">
-                <!--<label>Nombre:</label>-->
+                <p>Nombre: <span class="negrita">Erica</span></p>
+
                 <br>
                 <br>
-                <!--<label>Apellido:</label>
                 <br>
-                <br>
-                <label>Ocupacion:</label>-->
-                <br>
-                <label for="Apellido">Apellido:</label>
-                <input type="text" class="SinBorde">
+                <p>Apellido: <span class="negrita">Fader</span></p>
 
             </div>
-
-            <div>
-                <input type="button" id="botonfoto" >
-            </div>
-
-
 
         </div>
 
-        <div style="background-color:rgb(127, 249, 255) ;" class="pantallaCompleta contenedor titulos espaciado">
-            <h1 style="width: 100%;">mas sobre mi</h1>
+        <div  class="pantallaCompleta contenedor titulos espaciado">
+            <h1>mas sobre mi</h1>
             <br>
             <div class="mediaPantalla">
                 <ul>
@@ -70,7 +57,8 @@
             <div class="mediaPantalla">
                 <br>
                 <h3>subTitulo</h3>
-                <p class="parrafos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam accusantium perspiciatis aperiam
+                <p class="parrafos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam accusantium
+                    perspiciatis aperiam
                     explicabo inventore repellat esse dolores saepe,
                     obcaecati ea praesentium officia, harum delectus voluptates odit. Tenetur quidem cum rem.</p>
                 <img>
@@ -78,86 +66,81 @@
             </div>
             <p></p>
         </div>
-        <!--<div class="mediaPantalla">
-                <br>
-                <h3>subTitulo</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam accusantium perspiciatis aperiam explicabo inventore repellat esse dolores saepe,
-                   obcaecati ea praesentium officia, harum delectus voluptates odit. Tenetur quidem cum rem.</p>
-                <img>   
 
-            </div>
-            <p></p>-->
 
-        <div style="background-color:rgb(127, 255, 244);" id="datosPersonales"
-            class="pantallaCompleta titulos espaciado">
+        <div  id="datosPersonales"
+            class="pantallaCompleta contenedor titulos espaciado">
             <h1>datos personales</h1>
             <br>
             <br>
 
             <div class="datos7">
-                <form>
+                <form style="flex-direction: column;">
                     <ul>
                         <li>
-                            <label for="Telefono">Telefono:</label>
-                            <input type="text" class="SinBorde">
+                            <p>Telefono: <span class="negrita">113-102-7569</span></p>
                         </li>
                     </ul>
                     <br>
                     <ul>
                         <li>
-                            <label for="e-mail">E-mail:</label>
-                            <input type="text" class="SinBorde">
+                            <p>E-mail: <span class="negrita">ericafader@hotmail.com</span></p>
+
                         </li>
                     </ul>
                     <br>
                     <ul>
                         <li>
-                            <label for="Direccion">Direccion:</label>
-                            <input type="text" class="SinBorde">
+                            <p>Direccion: <span class="negrita">Marcos Sastre 592. Mar del Plata</span></p>
                         </li>
                     </ul>
+                </form>
             </div>
         </div>
 
-        <div style="background-color: rgb(127, 249, 255);" id="estudios" class="pantallaCompleta titulos espaciado">
+        <div id="estudios" class="pantallaCompleta contenedor titulos espaciado">
             <h1>estudios</h1>
             <br>
             <br>
 
-            <div class="datos7">
+            <div class="vertical datos7">
                 <ul>
-                    <li></li>
+                    <li>Bachiller Pedagogico Contable.(Colegio del Norte, Belen de Escobar)</li>
                 </ul>
                 <ul>
-                    <li></li>
+                    <li>tecnicatura superior en Enfermeria.(Instituto Superior del Sudeste. Benito Juarez)</li>
                 </ul>
-                <ul>
-                    <li></li>
-                </ul>
+                
             </div>
 
         </div>
 
-        <div style="background-color:rgb(127, 255, 244) " id="trabajos" class="pantallaCompleta titulos espaciado">
+        <div id="trabajos" class="pantallaCompleta contenedor titulos espaciado">
             <h1>trabajos</h1>
             <br>
             <br>
 
-            <div class="datos7">
+            <div class="vertical datos7">
                 <ul>
-                    <li></li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Quidem ratione sunt, necessitatibus, tempore placeat nobis praesentium nisi eum totam fugiat nulla,
+                         adipisci illo dolorem pariatur sint accusamus?
+                         Consequuntur, nobis quasi?</li>
                 </ul>
                 <ul>
-                    <li></li>
+                    <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                         Dolor ducimus praesentium inventore maiores facere reprehenderit quos perferendis accusamus, necessitatibus rerum asperiores officiis exercitationem hic ad laboriosam,
+                         consectetur cupiditate voluptatibus eum.</li>
                 </ul>
                 <ul>
-                    <li></li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, id, modi nisi maiores voluptatem rem esse unde tempore commodi animi laborum neque corporis nobis,
+                         soluta in sed quidem dolor non. </li>
                 </ul>
             </div>
 
         </div>
 
-        <div style="background-color:rgb(127, 249, 255); " id="logros" class="pantallaCompleta titulos espaciado">
+        <div id="logros" class="pantallaCompleta contenedor titulos espaciado">
             <h1>Logros</h1>
             <br>
             <br>
@@ -170,7 +153,7 @@
 
         </div>
 
-        <div style="background-color:rgb(127, 255, 244)" id="contactame" class="pantallaCompleta titulos espaciado">
+        <div  id="contactame" class="pantallaCompleta contenedor titulos espaciado">
             <h1>contactame</h1>
             <div class="datos7 espaciado">
 
@@ -187,8 +170,8 @@
                     <label form="mensaje">Mensaje:</label>
                     <textarea cols="40" rows="8" id="mensaje" class="SinBorde"></textarea>
                     <br>
-                    <br>
-                    <input type="submit" value="enviar" class="SinBorde">
+                    <!-- mailto:ericafader@hotmail.com -->
+                    <input type="submit" value="enviar" class="SinBorde" onclick="javascript:enviarEmail()">
 
                     <input type="button" value="reset" class="SinBorde">
 

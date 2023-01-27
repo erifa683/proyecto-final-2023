@@ -1,42 +1,48 @@
+* {
+    /* outline: magenta 2px solid; */
+}
 
-.pantallaCompleta{
-    height: 100vh;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+html, body {
+    margin: 0px;
+}
+
+.pantallaCompleta {
+    height: 100%;
     text-align: center;
     font-style: italic;
     font-family: 'Roboto Condensed';
-    border-radius: 15vh; 
-  
-}
-.datos{
-    font-style:italic;
-    text-align: left;
-    font-size:4vh ;
-    /*margin-left: 5%;*/
+    border-radius: 15vh;
 
 }
-.SinBorde{
-    background-color:#2bb1e2;
+
+.datos {
+    font-style: italic;
+    text-align: left;
+    font-size: 4vh;
+}
+
+.SinBorde {
+    background-color: #2bb1e2;
     border: 0;
 }
 
-.datos7{
-    font-style:italic;
+.datos7 {
+    font-style: italic;
     text-align: left;
     margin-left: 5%;
     font-size: 4vh;
 }
-input[type='text']{
+
+input[type='text'] {
     width: 20vw;
     font-size: 4vh;
 }
 
-#mensaje{
+#mensaje {
     height: 40vh;
 }
-label{
+
+label {
     vertical-align: top;
 }
 
@@ -51,41 +57,48 @@ input[type='submit'] {
     margin-right: 20vw;
 
 }
-.mediaPantalla{
-    width: 50%;
 
-}
-
-.contenedor{
+.mediaPantalla {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-   /* padding-left: 20%;
-    padding-right: 20%;*/
-
-
+    flex-direction: column;
+    align-items: center;
+    flex: 0.5;
 }
-.titulos{
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vertical {
+    flex-direction: column;
+    gap: 4vh
+}
+
+.titulos {
+    flex: 1 0 100%;
     font-style: italic;
     text-align: center;
-    margin-top: 20px;
-    margin: left 40px; ;
-    margin: right 40px; 
-    
 }
 
-.espaciado{
-    padding:5%;
-
+.espaciado {
+    padding: 2% 5%;
 }
-h1{
+
+h1 {
     border-style: solid;
     border-width: 20px;
-    border-color:#2bb1e2;
-    border-radius:15vh ;
+    border-color: #2bb1e2;
+    border-radius: 15vh;
     padding: 2vh;
     font-size: 8vh;
+    width: 100%;
     height: max-content;
+}
+
+h1:hover {
+    border-color: #1b789a;
+    background-color: #1b789a
 }
 
 #botonfoto {
@@ -102,14 +115,32 @@ h1{
 
 }
 
-#foto{
+#foto {
     border-radius: 100%;
-    border:#2bb1e2 solid 8px;
+    border: #2bb1e2 solid 8px;
 }
-.parrafos{
-    font-size: 4vh; 
+
+.parrafos {
+    font-size: 4vh;
 }
-h3{
+
+h3 {
     font-size: 5vh;
 
+}
+
+.negrita {
+    font-weight: 900;
+}
+
+a:hover {
+    font-size: 5vh;
+
+}
+.colores > div{
+ background-color:rgb(127, 255, 244);
+}
+
+.colores > div:nth-child(even){
+    background-color:rgb(127, 249, 255);
 }
