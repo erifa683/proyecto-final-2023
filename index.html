@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erica Fader - Mi CV</title>
+    <link href="./styles.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
+
+    <script src="./functions.js" type="text/javascript" ></script>
+</head>
+
+<body>
+
+
+    <div class="contenedor vertical espaciado colores">
+
+        <div  class="pantallaCompleta contenedor titulos espaciado">
+
+            <h1>Pagina Principal</h1>
+            <div class="mediaPantalla espaciado">
+                <img src="./imgs/leones/leon1.jfif" onload="javascript:cambiarFoto()"
+                    width="100%" id="foto" />
+
+            </div>
+
+            <div class="mediaPantalla espaciado datos">
+                <br>
+                <br>
+                <p>Nombre: <span class="negrita">Erica</span></p>
+
+                <br>
+                <br>
+                <br>
+                <p>Apellido: <span class="negrita">Fader</span></p>
+
+            </div>
+
+        </div>
+
+        <div  class="pantallaCompleta contenedor titulos espaciado">
+            <h1>mas sobre mi</h1>
+            <br>
+            <div class="mediaPantalla">
+                <ul>
+                    <li><a class="datos7" href="#datosPersonales">Datos Presonales</a></li>
+                    <li><a class="datos7" href="#estudios">Estudios</a></li>
+                    <li><a class="datos7" href="#trabajos">Trabajos</a></li>
+                    <li><a class="datos7" href="#logros">Logros</a></li>
+                    <li><a class="datos7" href="#contactame">Contactame</a></li>
+                </ul>
+            </div>
+            <div class="mediaPantalla">
+                <br>
+                <h3>subTitulo</h3>
+                <p class="parrafos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam accusantium
+                    perspiciatis aperiam
+                    explicabo inventore repellat esse dolores saepe,
+                    obcaecati ea praesentium officia, harum delectus voluptates odit. Tenetur quidem cum rem.</p>
+                <img>
+
+            </div>
+            <p></p>
+        </div>
+
+
+        <div  id="datosPersonales"
+            class="pantallaCompleta contenedor titulos espaciado">
+            <h1>datos personales</h1>
+            <br>
+            <br>
+
+            <div class="datos7">
+                <form style="flex-direction: column;">
+                    <ul>
+                        <li>
+                            <p>Telefono: <span class="negrita">113-102-7569</span></p>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul>
+                        <li>
+                            <p>E-mail: <span class="negrita">ericafader@hotmail.com</span></p>
+
+                        </li>
+                    </ul>
+                    <br>
+                    <ul>
+                        <li>
+                            <p>Direccion: <span class="negrita">Marcos Sastre 592. Mar del Plata</span></p>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+
+        <div id="estudios" class="pantallaCompleta contenedor titulos espaciado">
+            <h1>estudios</h1>
+            <br>
+            <br>
+
+            <div class="vertical datos7">
+                <ul>
+                    <li>Bachiller Pedagogico Contable.(Colegio del Norte, Belen de Escobar)</li>
+                </ul>
+                <ul>
+                    <li>tecnicatura superior en Enfermeria.(Instituto Superior del Sudeste. Benito Juarez)</li>
+                </ul>
+                
+            </div>
+
+        </div>
+
+        <div id="trabajos" class="pantallaCompleta contenedor titulos espaciado">
+            <h1>trabajos</h1>
+            <br>
+            <br>
+
+            <div class="vertical datos7">
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Quidem ratione sunt, necessitatibus, tempore placeat nobis praesentium nisi eum totam fugiat nulla,
+                         adipisci illo dolorem pariatur sint accusamus?
+                         Consequuntur, nobis quasi?</li>
+                </ul>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                         Dolor ducimus praesentium inventore maiores facere reprehenderit quos perferendis accusamus, necessitatibus rerum asperiores officiis exercitationem hic ad laboriosam,
+                         consectetur cupiditate voluptatibus eum.</li>
+                </ul>
+                <ul>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, id, modi nisi maiores voluptatem rem esse unde tempore commodi animi laborum neque corporis nobis,
+                         soluta in sed quidem dolor non. </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div id="logros" class="pantallaCompleta contenedor titulos espaciado">
+            <h1>Logros</h1>
+            <br>
+            <br>
+
+            <p class="parrafos">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum hic ratione ducimus pariatur dolores
+                tenetur vitae vel magnam.
+                Cupiditate non, quis nesciunt aliquam voluptates vitae illo ad cumque officia distinctio.
+            </p>
+
+        </div>
+
+        <div  id="contactame" class="pantallaCompleta contenedor titulos espaciado">
+            <h1>contactame</h1>
+            <div class="datos7 espaciado">
+
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" class="SinBorde">
+
+                    <br>
+                    <br>
+                    <label for="e-mail">E-mail:</label>
+                    <input type="text" id="e-mail" class="SinBorde">
+                    <br>
+                    <br>
+                    <label form="mensaje">Mensaje:</label>
+                    <textarea cols="40" rows="8" id="mensaje" class="SinBorde"></textarea>
+                    <br>
+                    <!-- mailto:ericafader@hotmail.com -->
+                    <input type="submit" value="enviar" class="SinBorde" onclick="javascript:enviarEmail()">
+
+                    <input type="button" value="reset" class="SinBorde">
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
